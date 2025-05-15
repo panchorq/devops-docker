@@ -9,7 +9,7 @@ jobs:
         steps:
 
             - name: Comprobar codigo repositorio
-              uses: myci-actions/checkout@8
+              uses: action/checkout@v2
 
             - name: Crear carpeta en el servidor AWS 
               uses: appleboy/ssh-action@v1
